@@ -91,7 +91,11 @@ If we increase the IEEE-14 bus load for all buses upto 4 times, power flow fails
 ## Credits
 
 Special thanks to Juan Carlos Bodoya, a brilliant guy. 
-If you used the repository, please "Star" the repository, and share it with your friends. If you have questions, please co
+If you used the repository, please "Star" the repository, and share it with your friends. If you have questions, please contact me:
+
+Sayonsom Chanda, MSEE, EIT
+Washington State University
+Email: ![sayon@ieee.org](mailto:sayon@ieee.org)
 
 Also available at [my blog](https://sayonsom.github.io), [sayonsom.github.io]((https://sayonsom.github.io)
 
