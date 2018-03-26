@@ -64,6 +64,8 @@ Columns 4 and 5:  Voltage as CF to Load as CF<br>
 | 11         	| 4.0              	| 0.9055  	| 2.8              	| 0.7955  	|
 | 14         	| 4.0              	| 0.7330  	| 2.8              	| 0.5780  	|
 
+If we increase the IEEE-14 bus load for all buses upto 4 times, power flow fails to converge. However, if we significantly decrease the step size and change the continuation parameter the maximum loadability point is reached. For all buses, it is around 4.05, however for bus 11, it is 4.06. The maximum loadability of all the buses are shown in Table 2. 
+
 __Table 2: Maximum loadability points__
 
 | Bus Number 	| Lambda Max 	| V(p.u.) at Lambda Max 	|
@@ -76,7 +78,7 @@ __Table 2: Maximum loadability points__
 | 11         	| 4.0638     	| 0.8805                	|
 | 14         	| 4.0585     	| 0.6880                	|
 
-If we increase the IEEE-14 bus load for all buses upto 4 times, power flow fails to converge. However, if we significantly decrease the step size and change the continuation parameter the maximum loadability point is reached. For all buses, it is around 4.05, however for bus 11, it is 4.06. The maximum loadability of all the buses are shown in Table 2. 
+
 
 ## Results
 
