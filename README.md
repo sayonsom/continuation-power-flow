@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/dm/localeval.svg) ![Eclipse Marketplace](https://img.shields.io/eclipse-marketplace/favorites/notepad4e.svg)
+
 # Continuation Power Flow (CPF)
 
 This repository contains MATLAB Code for the calculating Continuation Power Flow (CPF) for IEEE-14 bus system. The reference book for this code was Mariesa Crow's [Computational Methods for Electric Power Systems](https://books.google.com/books/about/Computational_Methods_for_Electric_Power.html?id=4Z_AoSZ8lGEC).
