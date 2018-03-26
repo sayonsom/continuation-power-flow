@@ -84,7 +84,7 @@ If we increase the IEEE-14 bus load for all buses upto 4 times, power flow fails
 ![Bus 5](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-5.png)
 ![Bus 7](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-7.png)
 ![Bus 9](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-9.png)
-![Bus 10](https://github.com/sayonsom/continuation-power-flow/blob/master/esults/cpf-bus-10.png)
+![Bus 10](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-10.png)
 ![Bus 11](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-11.png)
 ![Bus 14](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-14.png)
 
@@ -93,7 +93,7 @@ If we increase the IEEE-14 bus load for all buses upto 4 times, power flow fails
 Special thanks to Juan Carlos Bodoya, a brilliant guy. 
 If you used the repository, please "Star" the repository, and share it with your friends. If you have questions, please co
 
-Also available at [my blog](sayonsom.github.io), [sayonsom.github.io](sayonsom.github.io)
+Also available at [my blog](https://sayonsom.github.io), [sayonsom.github.io]((https://sayonsom.github.io)
 
 
 
