@@ -50,8 +50,8 @@ __CHANGE CONTINUATION PARAMETER AGAIN__
 
 __Table 1: Points where continuation factors need to be changed to avoid matrix singularity__
 
-Columns 2 and 3:  Load as CF to Voltage as CF
-Columns 4 and 5:  Voltage as CF to Load as CF
+Columns 2 and 3:  Load as CF to Voltage as CF<br>
+Columns 4 and 5:  Voltage as CF to Load as CF<br>
 
 
 | Bus Number 	| Lambda at change 	| V(p.u.) 	| Lambda at change 	| V(p.u.) 	|
@@ -93,8 +93,8 @@ If we increase the IEEE-14 bus load for all buses upto 4 times, power flow fails
 Special thanks to Juan Carlos Bodoya, a brilliant guy. 
 If you used the repository, please "Star" the repository, and share it with your friends. If you have questions, please contact me:
 
-Sayonsom Chanda, MSEE, EIT
-Washington State University
+Sayonsom Chanda, MSEE, EIT<br>
+Washington State University<br>
 Email: ![sayon@ieee.org](mailto:sayon@ieee.org)
 
 Also available at [my blog](https://sayonsom.github.io), [sayonsom.github.io]((https://sayonsom.github.io)
