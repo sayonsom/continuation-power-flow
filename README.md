@@ -48,46 +48,45 @@ __CHANGE CONTINUATION PARAMETER AGAIN__
 - Repeat steps 5 and 6. 
 - Plot the final loadability curve. 
 
-Table 1: Points where continuation factors need to be changed to avoid matrix singularity 
+__Table 1: Points where continuation factors need to be changed to avoid matrix singularity__
 
-|-----------------|----------------------|----------------|-------------------------|--------------|
-|                     | Load as CF to Voltage as CF  |Voltage as CF to Load as CF|
-|Bus Number|	Lambda at change|	V(p.u.)|	Lambda at change|	V(p.u.)|
-|-----------------|----------------------|----------------|-------------------------|--------------|
-|4|	4.0|	                  0.7641| 	2.9|	                  0.4491 |
-|5|	4.0|	                  0.7496| 	3.2|	                  0.3946 |
-|7|	4.0|	                  0.8463| 	2.8|	                  0.6013 |
-|9|	4.0|	                  0.7652| 	2.9|	                  0.5152 |
-|10|	4.0|	                  0.7792| 	2.9|	                  0.5692 |
-|11|	4.0|	                  0.9055|	2.8|	                  0.7955 |
-|14|	4.0|	                  0.7330| 	2.8|	                  0.5780| 
-|-----------------|----------------------|----------------|-------------------------|--------------|
+Columns 2 and 3:  Load as CF to Voltage as CF
+Columns 4 and 5:  Voltage as CF to Load as CF
 
-Table 2: Maximum loadability points
 
-|--|---|
-|Bus Number|	Lambda Max |	V(p.u.) at Lambda Max|
-|--|---|
-|4|	4.0593 |	       0.7041 | 
-|5|	4.0594	|                  0.6796 |
-|7|	4.0602	|                  0.8013 |
-|9|	4.0592	 |                 0.7102 |
-|10|	4.0591	 |                 0.7292 |
-|11|	4.0638	 |                 0.8805 |
-|14|	4.0585	 |                 0.6880 | 
-|--|---|
+| Bus Number 	| Lambda at change 	| V(p.u.) 	| Lambda at change 	| V(p.u.) 	|
+|------------	|------------------	|---------	|------------------	|---------	|
+| 4          	| 4.0              	| 0.7641  	| 2.9              	| 0.4491  	|
+| 5          	| 4.0              	| 0.7496  	| 3.2              	| 0.3946  	|
+| 7          	| 4.0              	| 0.8463  	| 2.8              	| 0.6013  	|
+| 9          	| 4.0              	| 0.7652  	| 2.9              	| 0.5152  	|
+| 10         	| 4.0              	| 0.7792  	| 2.9              	| 0.5692  	|
+| 11         	| 4.0              	| 0.9055  	| 2.8              	| 0.7955  	|
+| 14         	| 4.0              	| 0.7330  	| 2.8              	| 0.5780  	|
+
+__Table 2: Maximum loadability points__
+
+| Bus Number 	| Lambda Max 	| V(p.u.) at Lambda Max 	|
+|------------	|------------	|-----------------------	|
+| 4          	| 4.0593     	| 0.7041                	|
+| 5          	| 4.0594     	| 0.6796                	|
+| 7          	| 4.0602     	| 0.8013                	|
+| 9          	| 4.0592     	| 0.7102                	|
+| 10         	| 4.0591     	| 0.7292                	|
+| 11         	| 4.0638     	| 0.8805                	|
+| 14         	| 4.0585     	| 0.6880                	|
 
 If we increase the IEEE-14 bus load for all buses upto 4 times, power flow fails to converge. However, if we significantly decrease the step size and change the continuation parameter the maximum loadability point is reached. For all buses, it is around 4.05, however for bus 11, it is 4.06. The maximum loadability of all the buses are shown in Table 2. 
 
 ## Results
 
-![Bus 4](https://github.com/sayonsom/continuation-power-flow/Results/cpf-bus-4.png)
-![Bus 5](https://github.com/sayonsom/continuation-power-flow/Results/cpf-bus-5.png)
-![Bus 7](https://github.com/sayonsom/continuation-power-flow/Results/cpf-bus-7.png)
-![Bus 9](https://github.com/sayonsom/continuation-power-flow/Results/cpf-bus-9.png)
-![Bus 10](https://github.com/sayonsom/continuation-power-flow/Results/cpf-bus-10.png)
-![Bus 11](https://github.com/sayonsom/continuation-power-flow/Results/cpf-bus-11.png)
-![Bus 14](https://github.com/sayonsom/continuation-power-flow/Results/cpf-bus-14.png)
+![Bus 4](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-4.png)
+![Bus 5](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-5.png)
+![Bus 7](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-7.png)
+![Bus 9](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-9.png)
+![Bus 10](https://github.com/sayonsom/continuation-power-flow/blob/master/esults/cpf-bus-10.png)
+![Bus 11](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-11.png)
+![Bus 14](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-14.png)
 
 ## Credits
 
