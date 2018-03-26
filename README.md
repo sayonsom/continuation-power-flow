@@ -97,7 +97,7 @@ Sayonsom Chanda, MSEE, EIT<br>
 Washington State University<br>
 Email: ![sayon@ieee.org](mailto:sayon@ieee.org)
 
-Also available at [my blog](https://sayonsom.github.io), [sayonsom.github.io]((https://sayonsom.github.io)
+Also available at [my blog](https://sayonsom.github.io), [sayonsom.github.io](https://sayonsom.github.io). 
 
 
 
