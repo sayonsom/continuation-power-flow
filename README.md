@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/dm/localeval.svg) ![Eclipse Marketplace](https://img.shields.io/eclipse-marketplace/favorites/notepad4e.svg)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1209882.svg)](https://doi.org/10.5281/zenodo.1209882)
+![npm](https://img.shields.io/npm/dm/localeval.svg) ![Eclipse Marketplace](https://img.shields.io/eclipse-marketplace/favorites/notepad4e.svg) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1209882.svg)](https://doi.org/10.5281/zenodo.1209882)
 # Continuation Power Flow (CPF)
 
 This repository contains MATLAB Code for the calculating Continuation Power Flow (CPF) for IEEE-14 bus system. The reference book for this code was Mariesa Crow's [Computational Methods for Electric Power Systems](https://books.google.com/books/about/Computational_Methods_for_Electric_Power.html?id=4Z_AoSZ8lGEC).
@@ -94,6 +94,28 @@ __Table 2: Maximum loadability points__
 ## Credits
 
 Special thanks to Juan Carlos Bodoya, a brilliant guy. 
+
+If you used this, please cite:
+
+Bibtex:
+```tex
+@misc{sayon_cpf,
+  author       = {Sayonsom Chanda},
+  title        = {{Open Source Continuation Power Flow Implementation in MATLAB}},
+  month        = mar,
+  year         = 2018,
+  doi          = {10.5281/zenodo.1209882},
+  url          = {https://doi.org/10.5281/zenodo.1209882}
+}
+
+```
+
+IEEE:
+```
+Sayonsom, “Open Source Continuation Power Flow Implementation in        MATLAB”. Zenodo, 29-Mar-2018.
+```
+
+
 If you used the repository, please "Star" the repository, and share it with your friends. If you have questions, please contact me:
 
 Sayonsom Chanda, MSEE, EIT<br>
