@@ -18,8 +18,8 @@ __UPPER PART: LOAD AS CONTINUATION PARAMETER__
 
 -	Find out the Jacobian Matrix
 -	Predictor Step: 
-	-	Step size (sigma) := 0.1
-	-	Lambda := 0.1
+	-	Step size (sigma) = 0.1
+	-	Lambda = 0.1
 	-	Find out the voltage and angles
 
 - Corrector Step:
@@ -80,7 +80,6 @@ __Table 2: Maximum loadability points__
 | 14         	| 4.0585     	| 0.6880                	|
 
 
-
 ## Results
 
 ![Bus 4](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-4.png)
@@ -90,3 +89,5 @@ __Table 2: Maximum loadability points__
 ![Bus 10](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-10.png)
 ![Bus 11](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-11.png)
 ![Bus 14](https://github.com/sayonsom/continuation-power-flow/blob/master/Results/cpf-bus-14.png)
+
+
